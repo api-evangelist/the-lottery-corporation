@@ -1,0 +1,36 @@
+type: MCPServer
+name: The Lottery Corporation MCP Server
+provider: the-lottery-corporation
+generated: '2026-10-22'
+method: none
+status: none
+description: >-
+  No official MCP server is published by The Lottery Corporation (The Lott, Keno). The corporate site
+  publishes no developer API, OpenAPI, llms.txt or MCP documentation, so no candidate tool list can be
+  derived. Pre-flight probes of https://thelotterycorporation.com/mcp returned 404 and
+  https://www.thelotterycorporation.com/mcp returned 403, with identical control-path statuses
+  (opaque, proving nothing). This record holds no tools.
+source:
+- https://thelotterycorporation.com/mcp
+- https://www.thelotterycorporation.com/mcp
+deployment:
+  mode: none
+  auth: unknown
+  verified: searched
+tools: []
+third_party:
+- name: '@unclick/thelott-mcp'
+  official: false
+  publisher: UnClick (https://unclick.world)
+  description: Australian lottery results and jackpots from The Lott. By UnClick (https://unclick.world).
+  registry: npm
+  url: https://registry.npmjs.org/@unclick%2fthelott-mcp
+  repository: https://github.com/malamutemayhem/unclick/tree/main/packages/standalone/thelott-mcp
+  version: 0.1.0
+  published: '2026-05-30'
+  transport: stdio
+  install: npx -y @unclick/thelott-mcp
+  note: >-
+    Community package not published or endorsed by The Lottery Corporation. The npm registry returned
+    200 for it on 2026-10-22. Its tools were not enumerated: the package was never installed or run.
+    The getdrio.com registry listing that surfaced it returned 503 when fetched.

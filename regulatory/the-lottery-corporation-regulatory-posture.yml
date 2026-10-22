@@ -1,0 +1,93 @@
+generated: '2026-10-22'
+method: searched
+source:
+- https://www.thelotterycorporation.com/privacy
+- https://www.thelotterycorporation.com/content/dam/projects/tlc/documents/ALL_TLC-Privacy-Policy.pdf
+- https://www.thelotterycorporation.com/terms-of-use
+- https://www.thelotterycorporation.com/security
+jurisdiction: AU
+framework: Privacy Act and Australian Privacy Principles (APPs). The policy text reads "Privacy Act 1998 (Cth)", but the statute is the Privacy Act 1988 (Cth).
+notes: thelotterycorporation.com/privacy is a summary page that links to the full Privacy Policy PDF (HTTP 200, application/pdf). The terms-of-use and security (Responsible Disclosure Statement) pages were also read. They add no regulatory-posture signals beyond vulnerability disclosure, which belongs to the security module.
+signals:
+  data_subject_request:
+    url: https://www.thelotterycorporation.com/content/dam/projects/tlc/documents/ALL_TLC-Privacy-Policy.pdf
+    section: 12. How can I access, update or correct my personal information?
+    note: Under the Australian Privacy Act/APPs, people can ask for access and correction through privacy@thelotterycorporation.com or the Privacy Officer. Access usually takes 30 days. Asking is free, but there may be an access fee, and access can be partly refused. If a complaint goes unresolved, it can be escalated to the OAIC. The policy names no deletion or portability right.
+    evidence:
+    - source: https://www.thelotterycorporation.com/privacy
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: 'If you wish to contact us about our personal information handling practices, or you would like to access or seek correction of your personal information you can do so by:'
+    - source: https://www.thelotterycorporation.com/content/dam/projects/tlc/documents/ALL_TLC-Privacy-Policy.pdf
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: Access to your personal information is usually provided within 30 days of your request.
+    - source: https://www.thelotterycorporation.com/content/dam/projects/tlc/documents/ALL_TLC-Privacy-Policy.pdf
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: We can’t always remove or modify information in our databases, but we’ll always do our best to correct your personal information.
+    - source: https://www.thelotterycorporation.com/content/dam/projects/tlc/documents/ALL_TLC-Privacy-Policy.pdf
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: If you’re not satisfied with how we manage your complaint or if our decision doesn’t resolve your complaint, you may contact the Office of the Australian Information Commissioner.
+  data_residency:
+    url: https://www.thelotterycorporation.com/content/dam/projects/tlc/documents/ALL_TLC-Privacy-Policy.pdf
+    section: 7. Disclosure of your personal information overseas
+    note: Data is not kept only in Australia. The policy says third-party recipients may be overseas, in the US, UK, Germany, Canada, Ireland, Philippines, India, Singapore, Denmark and Japan. Transfers rely on APP-equivalent handling. Users get no choice of region.
+    evidence:
+    - source: https://www.thelotterycorporation.com/content/dam/projects/tlc/documents/ALL_TLC-Privacy-Policy.pdf
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: 'Sometimes the third parties we disclose your information to are overseas, including in:'
+    - source: https://www.thelotterycorporation.com/content/dam/projects/tlc/documents/ALL_TLC-Privacy-Policy.pdf
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: If we send your information overseas, we take every reasonable step to make sure these overseas recipients handle your information in accordance with the APPs, or ensure that the transfer of your information is in accordance with applicable laws.
+  subprocessors:
+    url: https://www.thelotterycorporation.com/content/dam/projects/tlc/documents/ALL_TLC-Privacy-Policy.pdf
+    section: 6. Who do we share your personal information with?
+    note: 'Recipients are described by category: group companies, service providers, ID verification, government background checks, share registry and cloud storage. The only one named is GreenID, the identity verification provider. There is no published subprocessor list and no change-notice commitment.'
+    evidence:
+    - source: https://www.thelotterycorporation.com/privacy
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: When we collect your personal information for these purposes, we may disclose it among The Lottery Corporation group of companies or to our third party service providers that we engage directly to help us run our business.
+    - source: https://www.thelotterycorporation.com/content/dam/projects/tlc/documents/ALL_TLC-Privacy-Policy.pdf
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: We use an identity services provider, GreenID, to help us with this.
+    - source: https://www.thelotterycorporation.com/content/dam/projects/tlc/documents/ALL_TLC-Privacy-Policy.pdf
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: We store any hard copy and electronic records of your personal information in secure buildings and systems and only use trusted third-party cloud storage providers.
+  ai_transparency:
+    url: https://www.thelotterycorporation.com/content/dam/projects/tlc/documents/ALL_TLC-Privacy-Policy.pdf
+    section: 4. How do we use your personal information?
+    note: The policy discloses in general terms that processing of personal information may involve AI. It does not say which systems, which decisions, or whether there is any opt-out.
+    evidence:
+    - source: https://www.thelotterycorporation.com/content/dam/projects/tlc/documents/ALL_TLC-Privacy-Policy.pdf
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: We collect, store, use (and at times disclose) the personal information we have about you to provide you with our products and services and to manage our business. In some cases, this may involve the use of Artificial Intelligence (AI).
+  age_assurance:
+    url: https://www.thelotterycorporation.com/content/dam/projects/tlc/documents/ALL_TLC-Privacy-Policy.pdf
+    section: 5. Your identification information
+    note: Age and identity are actively verified before online gambling products are provided. GreenID checks the details against the Government Identity Verification Services and other sources. This is a real verification mechanism, not just a statement that minors are not targeted.
+    evidence:
+    - source: https://www.thelotterycorporation.com/content/dam/projects/tlc/documents/ALL_TLC-Privacy-Policy.pdf
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: We need to verify your age and identity before we can provide you with our online products or services.
+    - source: https://www.thelotterycorporation.com/content/dam/projects/tlc/documents/ALL_TLC-Privacy-Policy.pdf
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: GreenID is approved to access the Government's Identity Verification Services as well as other third-party sources on our behalf.
+  data_retention:
+    url: https://www.thelotterycorporation.com/content/dam/projects/tlc/documents/ALL_TLC-Privacy-Policy.pdf
+    section: 5. Your identification information
+    note: 'Narrow: the only retention commitment found is that identity documents collected directly (for example after a legal name change) are deleted once the request is processed. The policy states no general retention periods.'
+    evidence:
+    - source: https://www.thelotterycorporation.com/content/dam/projects/tlc/documents/ALL_TLC-Privacy-Policy.pdf
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: In these circumstances, once we have processed your request, we delete any copies of your identity documents.

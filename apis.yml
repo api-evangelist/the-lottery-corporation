@@ -1,23 +1,98 @@
 aid: the-lottery-corporation
+
 name: The Lottery Corporation
-description: 'The Lottery Corporation is a company surfaced via the API Evangelist harvest backlog (source:
-  australia-apidays-2026) and added to the network as a stub for full-pipeline profiling.'
+
+description: The Lottery Corporation Limited (ASX:TLC) is an Australian lottery and Keno operator, the home of The Lott and
+  Keno brands, running Australia's biggest lottery games in every state and territory except Western Australia and describing
+  itself as one of the world's top-performing lottery businesses, now evolving into a digitally led entertainment company.
+  Its corporate site (thelotterycorporation.com) covers its brands, investors, ESG, careers (including tech careers) and news;
+  no public developer API or documentation is published there.
+
 url: https://raw.githubusercontent.com/api-evangelist/the-lottery-corporation/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:australia-apidays-2026
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-22 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-22'
+
 modified: '2026-10-22'
+
 tags:
 - Company
-apis: []
+- Lottery
+- Gaming
+- Entertainment
+- Keno
+- Australia
+- ASX Listed
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
+image: https://www.thelotterycorporation.com/content/dam/projects/tlc/page/TLC_Social-Share-FB_1200x630.png
+
 common:
+- type: SecurityTxt
+  url: well-known/the-lottery-corporation-security.txt
+- type: WellKnown
+  url: well-known/the-lottery-corporation-well-known.yml
+- type: Hosts
+  url: hosts/the-lottery-corporation-hosts.yml
+- type: Vendors
+  url: vendors/the-lottery-corporation-vendors.yml
+- type: VulnerabilityDisclosure
+  url: security/the-lottery-corporation-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/the-lottery-corporation-domain-security.yml
 - type: Website
-  url: https://thelotterycorporation.com/
+  url: https://www.thelotterycorporation.com/
+- type: Newsroom
+  url: https://www.thelotterycorporation.com/news-and-media/news
+- type: Support
+  url: https://www.thelotterycorporation.com/contact-us
+- type: Security
+  url: https://www.thelotterycorporation.com/security
+- type: TermsOfService
+  url: https://www.thelotterycorporation.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.thelotterycorporation.com/privacy
+- type: Careers
+  url: https://www.thelotterycorporation.com/work-with-us/tech-careers
+- type: Investors
+  url: https://www.thelotterycorporation.com/investors
+
+apis: []
+
+x-coverage:
+  state: covered
+  reason: identity-verified
+  detail: Corporate site renders and names The Lottery Corporation (title "Home | The Lottery Corporation"); no developer
+    portal, API docs or API pointers are linked from the site.
+  evidence:
+  - url: https://www.thelotterycorporation.com/
+    status: 200
+  - url: https://www.thelotterycorporation.com/contact-us
+    status: 200
+  - url: https://www.thelotterycorporation.com/security
+    status: 200
+  - url: https://www.thelotterycorporation.com/terms-of-use
+    status: 200
+  - url: https://www.thelotterycorporation.com/privacy
+    status: 200
+  - url: https://www.thelotterycorporation.com/news-and-media/news
+    status: 200
+x-enrichment:
+  date: '2026-10-22'
+  status: enriched
+  artifacts_added: 11
+  pass: modular-v1
+  engine: identity=anthropic,contract=anthropic,surfaces=anthropic,docs=anthropic,regulatory=anthropic

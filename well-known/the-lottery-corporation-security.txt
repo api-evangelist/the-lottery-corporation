@@ -1,0 +1,29 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Contact: mailto:security@thelotterycorporation.com
+
+Encryption: https://thelotterycorporation.com/.well-known/pgp-key.txt
+
+Expires: Fri, 31 Jan 2027 00:00 +1000
+
+Preferred-Languages: en
+
+Hiring: https://www.thelotterycorporation.com/work-with-us
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAEBCAA5FiEETVUEFdU4JjDecCVghhj3Aly29k8FAml61/kbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTEsMiwxAAoJEIYY9wJctvZPTCIP/38+xTClFaUoHWBNdcu6
+JoutFBwTB/NG43Lnx4/E7s7/7kd9IJOkou83XHh4n8urv9pdYP9/WXH5o6ouav78
+n3mwQ8WW7IBzOgb3R34qhICl8pIdSAQQqzgfDbLuTgPf0e1I0APAzk48qY/Nv7zs
+B/7/TiEKqG2J7LAqH9Ph+opqIyNQ998MB+Vh3Lotjacw9LWiGRRmXvwA9M3/x+pF
+q55C+DtpDGjnFcTXR/iquaCc1O/CAR2vTWQ0M++PXAKHldEobHraazYC4hXtetGo
+8gP0Y1GJLcfglmBWuHdKMPMhJAeu47vECP3tWpaexhuaBRTSpU5Ou55SbO2bm90X
+/qFYfiF/VLi+jFlZyPV7iGpJoR90smB5ZybM5F7vPydMQgfiFmVaD+Ls5RI+Ys7w
+JvbaImWKTZMSQLVsO6ZDs9AwDFs9qUJnwjEsbuQFqGqs7FrB257daFHmD62/CMpR
+kyWT5xN6/7RxQwWZi1PgIJDwZJhQNTVblycNpgr6qz7EC/WHv/a50aRf8/dYBbYG
+FIQWccQC73Z1SnPo6m8dmZxO/gdRhkZRKeCKbTLfV3fBXVJytHzZpdQm3loY81eL
+cd0QuNUueX5Xl+4fGivlVP4WOSTz+/IKVaBFMJZWJP2Om9Se8AoZbJG5JqWnUO1C
+mjt59lSDP+ETi7MeZgg5yOy/
+=L2RT
+-----END PGP SIGNATURE-----
